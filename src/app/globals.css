@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "../../node_modules/@tailwindcss/typography";
+
+@theme {
+  --color-police-blue-50: #eef4ff;
+  --color-police-blue-100: #dbeafe;
+  --color-police-blue-200: #bfdbfe;
+  --color-police-blue-300: #93c5fd;
+  --color-police-blue-400: #60a5fa;
+  --color-police-blue-500: #3b82f6;
+  --color-police-blue-600: #2563eb;
+  --color-police-blue-700: #1d4ed8;
+  --color-police-blue-800: #1e40af;
+  --color-police-blue-900: #1e3a8a;
+  --color-police-blue-950: #172554;
+
+  --color-brand-primary: #0A2647;
+  /* Deep Police Blue */
+  --color-brand-secondary: #144272;
+  --color-brand-accent: #2C74B3;
+  --color-brand-surface: #F4F7FA;
+}
+
+:root {
+  --background: #F4F7FA;
+  --foreground: #0A2647;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0A2647;
+    --foreground: #F4F7FA;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
