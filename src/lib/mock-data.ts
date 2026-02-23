@@ -68,3 +68,49 @@ export const historyData = [
     counselor: "Dr. Budi Santoso, M.Psi"
   }
 ]
+
+export const mockMessages = [
+  {
+    id: "MSG-001",
+    title: "Surat Rujukan Konseling Lanjutan - RS Bhayangkara",
+    sender: "Psikolog Biro SDM",
+    date: "23 Feb 2026",
+    isRead: false,
+    content: `Yth. Anggota,
+    
+Berdasarkan hasil screening dan sesi konseling awal pada tanggal 20 Februari 2026, kami merekomendasikan Saudara untuk melakukan sesi konseling lanjutan secara tatap muka.
+
+Hal ini bertujuan untuk observasi lebih mendalam dan pemberian teknik relaksasi yang lebih terarah. Silahkan jadwalkan kunjungan anda di aplikasi pada menu Booking.
+
+Tetap jaga kesehatan dan semangat bertugas.
+
+Salam hormat,
+Tim Psikologi Biro SDM`
+  },
+  {
+    id: "MSG-002",
+    title: "Rangkuman Sesi Konseling (10 Jan 2026)",
+    sender: "Dr. Budi Santoso, M.Psi",
+    date: "11 Jan 2026",
+    isRead: true,
+    content: `Catatan Evaluasi Sesi 1:
+
+1. Kondisi Umum: Klien melaporkan tingkat stres yang menurun setelah menerapkan teknik pernapasan.
+2. Area Fokus: Manajemen waktu jaga malam dan istirahat.
+3. Rencana Tindak Lanjut: Menerapkan jurnal harian singkat sebelum tidur.
+
+Sesi berjalan lancar. Evaluasi selanjutnya dapat dilakukan melihat perkembangan 1 bulan ke depan. Tidak ada indikasi rujukan medis mendesak.`
+  },
+  {
+    id: "MSG-003",
+    title: "Selamat Datang di Aplikasi KEHATI",
+    sender: "Sistem Admin",
+    date: "01 Jan 2026",
+    isRead: true,
+    content: `Selamat bergabung di aplikasi KEHATI (Layanan Psikologi Online SDM Polda Jabar).
+
+Aplikasi ini didesain untuk menjadi pendamping setia anda dalam menjaga kesehatan mental selama bertugas. Silahkan eksplorasi fitur-fitur seperti E-Triase, Portal Berita, dan Jadwal Konseling.
+
+Privasi dan kerahasiaan data anda adalah prioritas utama kami.`
+  }
+]
